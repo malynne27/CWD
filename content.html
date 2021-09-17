@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+          <!-- ICON -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Font awesome -->
+<script src="https://kit.fontawesome.com/a6baecfa49.js" crossorigin="anonymous"></script><title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<title>Request Demo</title>
+<body>
+  <div class="scroll-bg">
+    <div class="scroll-div">
+      <div class="scroll-object">
+  
+    <nav class="nav-wrapper">
+      <div class="container">
+        
+        <a href="#" class="brand-logo">
+          <img src="img/logo.png">
+        </a>
+        <a href="#" class="sidenav-trigger" data-target="slide-out">
+          <i class="material-icons">menu</i>
+        </a>
+    <ul class="right hide-on-med-and-down">
+    
+     <li> <a class="active" href="home.html">Home</a></li>
+         <li> <a href="about.html">About</a> </li>
+        <li> <a href="services.html">Services</a></li>
+        <li class="search-icon">
+          <input type="search" placeholder="Search">
+         <label class="icon">
+           <span class="fas fa-search"></span>
+         </label>
+        </li>
+      </ul>
+      </div> 
+    </nav>
+    <!-- Sidenav -->
+    <ul class="sidenav" id="slide-out">
+      <li>
+        <div class="user-view">
+          
+            <a href="#">
+              <img src="img/flower.jpg" alt="" class="circle">
+          </a>
+          <a href="#">
+            <span class="name pink-text">malynne27</span>
+        </a>
+        <a href="#">
+            <span class="email pink-text">malynne27@gmail.com</span>
+        </a>
+        </div>
+        <li>
+      <li> <a class="active" href="home.html">Home</a></li>
+         <li> <a href="about.html">About</a> </li>
+        <li> <a href="services.html">Services</a></li>
+      </li>
+      </li>
+        <li><a href="" class="waves-effect">Logout</a></li>
+    </ul>
+    </ul>
+
+  <!-- End of container -->
+</div>
+<br><br><br><br><br>
+      <div class="container">
+        
+        <form>
+            <div class="input-field">
+              <label for="message">Name</label>
+                <textarea name="" id="name" class="materialize-textarea">
+                </textarea>
+                
+            </div>
+            
+            <div class="input-field">
+              
+                <i class="material-icons prefix">phone</i>
+                <textarea name="" id="contact" class="materialize-textarea">
+                </textarea>
+                <label for="contact">Contact Number</label>
+                
+            </div>
+        </form>
+      <div class="container">
+      <div class="row col s12 m6">
+    </p>
+    <!-- Date Picker -->
+    <div class="input-field">
+        <input type="text" class="datepicker">
+       
+        <label for="text">Date</label>
+    </div>
+    <div class="input-field">
+    <!-- Time Picker -->
+    <input type="text" class="timepicker">
+    <label for="text">Time</label>
+      </div>
+    </div>
+    <br><br><br>
+  
+    <button class="btn waves-effect waves-light indigo" type="submit" name="action">Submit
+      <i class="material-icons right">send</i>
+    </button>
+      
+      <!-- end of container -->
+    </div>
+    
+
+    <!-- Social Media footer -->
+    <div class="social">
+        <div class="container">
+         
+              <h5 class="white-text">Follow us</h5>
+              
+                <a href="https://www.facebook.com/malynne027" target="_blank">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/malynne27" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/malynne27" target="_blank">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/malynne27/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                </div>
+              </div>
+              <!-- end  of scroll -->
+      </div>
+    </div>
+  </div>
+    <div style="height: 1000px;"></div>
+               <!-- jquery cdn  -->
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+       $('.datepicker').datepicker();
+       $('.timepicker').timepicker();
+       M.updateTextFields();
+       $('.sidenav').sidenav();
+     });
+   </script> 
+</body>
+</html>
